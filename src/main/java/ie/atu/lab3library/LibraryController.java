@@ -21,6 +21,5 @@ public class LibraryController {
     public void newBook(@RequestBody Book book){
         ls.addBook(book);
         System.out.println(ls.getBooks());
-        System.out.println();
     }
 }
