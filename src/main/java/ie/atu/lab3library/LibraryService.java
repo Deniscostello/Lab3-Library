@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class LibraryService {
     private ArrayList <Book> books =new ArrayList<>();
 
-    @Autowired(required = false)
     public void addBook(Book book){
         books.add(book);
     }
